@@ -30,6 +30,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'nijisanji.apps.NijisanjiConfig',
     'youtube.apps.YoutubeConfig',
     'django.contrib.admin',
     'django.contrib.auth',
