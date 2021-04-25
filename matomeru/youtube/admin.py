@@ -4,7 +4,7 @@ from .models import Channel, Video, Matome, Scene
 
 
 class ChannelAdmin(admin.ModelAdmin):
-    pass
+    list_display = ('name', 'cid', 'created_at', 'updated_at')
 
 
 class VideoAdmin(admin.ModelAdmin):
